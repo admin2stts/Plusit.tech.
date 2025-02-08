@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Matto Tutors - Contact Us/Help</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #000000;
+			color: #FFFFFF;
+		}
+		
+		.support_wrap {
+			width: 50%;
+			margin: 40px auto;
+			padding: 20px;
+			background-color: #FFFFFF;
+			border: 1px solid #000000;
+			box-shadow: 0 0 10px rgba(0,0,0,0.1);
+		}
+		
+		.support_submit {
+			text-align: center;
+			margin-top: 20px;
+		}
+		
+		.btn {
+			background-color: #000000;
+			color: #FFFFFF;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		
+		.btn:hover {
+			background-color: #333333;
+		}
+		
+		label {
+			color: #000000;
+		}
+		
+		input, textarea {
+			color: #000000;
+		}
+		
+		h1 {
+			color: #FFFFFF;
+			text-shadow: 0 0 10px rgba(0,0,0,0.5);
+			font-size: 40px;
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		
+		h2 {
+			color: #000000;
+			text-align: center;
+			margin-bottom: 20px;
+		}
+	</style>
+</head>
+<body>
+	<h1>BLAST</h1>
+	<div class="support_wrap">
+		<h2>Matto Tutors - Contact Us/Help</h2>
+		<form action="/matto_tutors_contact_us" method="POST">
+			<div class="form-group">
+				<label for="support_problem">Please describe your issue:</label>
+				<textarea class="form-control" rows="3" id="support_problem" name="message"></textarea>
+			</div>
+			<div class="form-group">
+				<label for="support_name">Your full name:</label>
+				<input type="text" class="form-control" id="support_name" name="name" value="">
+			</div>
+			<div class="form-group">
+				<label for="support_email">Your email:</label>
+				<input type="email" class="form-control" id="support_email" placeholder="user@example.com" name="email" value="">
+			</div>
+			<div class="form-group">
+				<label for="support_phone">Your phone number:</label>
+				<input type="tel" class="form-control" id="support_phone" placeholder="+12223334455" name="phone" value="">
+			</div>
+			<div class="support_submit">
+				<button type="submit" class="btn">Submit</button>
+			</div>
+		</form>
+	</div>
+</body>
+</html>
+```
+
