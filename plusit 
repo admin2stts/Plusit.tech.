@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlusIt</title>
+    <style>
+        body {
+            background-color: white;
+            color: green;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+        .dashboard {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid green;
+        }
+        .customer-service {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid green;
+        }
+        form {
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to PlusIt</h1>
+    </header>
+    
+    <div class="dashboard">
+        <h2>Dashboard</h2>
+        <p>Your Balance: $0.00</p>
+    </div>
+    
+    <div class="customer-service">
+        <h2>Customer Service</h2>
+        <p>Email: <a href="mailto:kulous10@gmail.com">kulous10@gmail.com</a></p>
+        <p>WhatsApp: <a href="tel:+07010450126">07010450126</a></p>
+    </div>
+    
+    <div class="registration">
+        <h2>Register</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" required><br>
+            <label for="coupon">Coupon Code:</label><br>
+            <input type="text" id="coupon" name="coupon"><br>
+            <label for="email">Gmail:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</body>
+</html>
